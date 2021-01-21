@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "rm -rf myapp.zip && ng build && npx zip-build dist ./ -t %NAME%.%EXT%",
     "test": "ng test",
-    "test-ci": "ng test --karma-config=karma-ci.conf.js --no-progress",
+    "test-ci": "",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
